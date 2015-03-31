@@ -6,10 +6,14 @@ It implements a kind of instance inventory, allowing to get a list of all regist
 ## Quickstart
 
 ### Prepare environment
-Create a virtualenv if you don't already have one and install required dependencies.
+Create a virtualenv if you don't already have one.
 ```
 virtualenv .venv
 source .venv/bin/activate
+```
+
+Install required dependencies.
+ ```
 pip install pip pybuilder --upgrade
 pyb install_dependencies
 ```
