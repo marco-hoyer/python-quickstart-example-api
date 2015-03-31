@@ -1,6 +1,7 @@
 # python-quickstart-example-api
 
-This project is intended as a simple example on how to implement a restful api with python flask.
+This project is intended to be a simple example on how to implement a restful api with python flask.
+It implements a kind of instance inventory, allowing to get a list of all registered instances and do CRUD on a single instance.
 
 ## Quickstart
 
