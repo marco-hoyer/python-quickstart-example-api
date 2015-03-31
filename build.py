@@ -14,4 +14,7 @@ default_task = "publish"
 
 @init
 def set_properties(project):
-    pass
+    project.depends_on('argparse')
+    project.depends_on('flask')
+    project.depends_on('flask-restful')
+    project.depends_on('ordereddict')
