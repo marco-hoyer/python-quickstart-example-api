@@ -21,13 +21,11 @@ pyb install_dependencies
 ### Run tests
 Run all unittests in this project.
 ```
-source .venv/bin/activate
 pyb verify
 ```
 
 ### Build project
 Run tests and build project if successful.
 ```
-source .venv/bin/activate
 pyb
 ```
