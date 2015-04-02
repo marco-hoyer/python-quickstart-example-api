@@ -18,3 +18,4 @@ def set_properties(project):
     project.depends_on('flask')
     project.depends_on('flask-restful')
     project.depends_on('ordereddict')
+    project.set_property('install_dependencies_upgrade', True)
